@@ -1,3 +1,4 @@
+import os
 from bottle import route, run, template
 
 @route('/hello/<name>')
